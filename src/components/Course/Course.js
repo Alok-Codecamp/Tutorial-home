@@ -13,7 +13,7 @@ const Course = (props) => {
             <h4>Tutor: {tutor}</h4>
             <p>Profession: {proffession}</p>
             <p>Email: {email}</p>
-            <p>Price: ${price}</p>
+            <p> Course Price: ${price}</p>
             <button className="buy-btn" onClick={()=>props.handleOrder(props.course)}><FontAwesomeIcon icon={faShoppingCart} /> buy Now</button>
             
         </div>

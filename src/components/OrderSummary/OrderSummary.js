@@ -15,7 +15,7 @@ const OrderSummary = (props) => {
             <h3>Total price: ${total}</h3>
            <div className="tutor-info-container">
            {
-                props.orders.map(order=><div className="order-info">
+                props.orders.map(order=><div key={order.id} className="order-info">
                 <p>Name: {order.tutor}</p>
                 <p>Subject:{order.subject}</p>
                 </div>)

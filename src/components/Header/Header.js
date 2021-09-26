@@ -19,7 +19,7 @@ const Header = () => {
                 </nav>
             </div>
             </div>
-            <h4 className="budget">Total budget $30000 </h4>
+            <h4 className="budget">Total budget: 30000K </h4>
        </div>
     );
 };
