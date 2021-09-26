@@ -6,3 +6,8 @@
     color: white;
     text-align: center;
 }
+.buy-btn{
+    background-color: coral;
+    height: 30px;
+    border-radius: 20px;
+}
