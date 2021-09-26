@@ -1,7 +1,7 @@
 import React from 'react';
 import './OrderSummary.css'
 const OrderSummary = (props) => {
-    console.log(props.orders)
+    // console.log(props.orders)
     let total=0;
    if(props.orders.length){
     for(const id of props.orders){
