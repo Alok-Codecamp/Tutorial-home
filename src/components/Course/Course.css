@@ -12,3 +12,6 @@
     border-radius: 20px;
     cursor: pointer;
 }
+.profile-pic{
+    border-radius: 50%;
+}

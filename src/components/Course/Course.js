@@ -8,7 +8,7 @@ const Course = (props) => {
     return (
         <div className="course">
 
-            <img src={img} alt="" />
+            <img className="profile-pic" src={img} alt="" />
             <h3>Subject:{subject}</h3>
             <h4>Tutor: {tutor}</h4>
             <p>Profession: {proffession}</p>
